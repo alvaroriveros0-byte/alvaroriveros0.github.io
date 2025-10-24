@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.R_CARS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <h1>A.R_CARS</h1>
+        <button id="loginBtn">Iniciar sesión</button>
+    </header>
+
+    <section class="autos-container">
+        <div class="auto-card">
+            <img src="rolls roys.jpg" alt="Rolls Royce">
+            <h2>Rolls Royce</h2>
+            <p>Lujo y elegancia en cada detalle.</p>
+            <button class="like-btn">❤️ Me gusta (<span class="like-count">0</span>)</button>
+        </div>
+
+        <div class="auto-card">
+            <img src="mk4.jpg" alt="Toyota Supra">
+            <h2>Toyota Supra</h2>
+            <p>Potencia japonesa con estilo deportivo.</p>
+            <button class="like-btn">❤️ Me gusta (<span class="like-count">0</span>)</button>
+        </div>
+
+        <div class="auto-card">
+            <img src="mercedes.jpg" alt="Mercedes AMG">
+            <h2>Mercedes AMG</h2>
+            <p>Rendimiento y confort alemán.</p>
+            <button class="like-btn">❤️ Me gusta (<span class="like-count">0</span>)</button>
+        </div>
+
+        <div class="auto-card">
+            <img src="BMW.jpg" alt="BMW M8">
+            <h2>BMW M8</h2>
+            <p>Diseño agresivo y pura adrenalina.</p>
+            <button class="like-btn">❤️ Me gusta (<span class="like-count">0</span>)</button>
+        </div>
+    </section>
+
+    <!-- Modal de inicio de sesión -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Iniciar sesión</h2>
+            <input type="text" id="username" placeholder="Usuario">
+            <input type="password" id="password" placeholder="Contraseña">
+            <button id="submitLogin">Entrar</button>
+            <p id="loginMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
